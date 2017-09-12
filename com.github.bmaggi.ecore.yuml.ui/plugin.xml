@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   
+	<extension
+         point="org.eclipse.ui.menus">
+    <menuContribution
+          allPopups="false"
+          locationURI="popup:org.eclipse.ui.popup.any">
+       <menu
+             id="ecore.yuml.menu"
+             label="Ecore To Yuml">
+          <command
+                commandId="ecore.yuml.command"
+                label="Jpeg"
+                style="push">
+             <parameter
+                   name="ecore.yuml.command.parameter.type"
+                   value="JPEG">
+             </parameter>
+          </command>
+          <command
+                commandId="ecore.yuml.command"
+                label="Png"
+                style="push">
+             <parameter
+                   name="ecore.yuml.command.parameter.type"
+                   value="PNG">
+             </parameter>
+          </command>
+          <command
+                commandId="ecore.yuml.command"
+                label="Pdf"
+                style="push">
+             <parameter
+                   name="ecore.yuml.command.parameter.type"
+                   value="PDF">
+             </parameter>
+          </command> 
+          <command
+                commandId="ecore.yuml.command"
+                label="Json"
+                style="push">
+             <parameter
+                   name="ecore.yuml.command.parameter.type"
+                   value="JSON">
+             </parameter>
+          </command>
+          <command
+                commandId="ecore.yuml.command"
+                label="Svg"
+                style="push">
+             <parameter
+                   name="ecore.yuml.command.parameter.type"
+                   value="SVG">
+             </parameter>
+          </command>                               
+          <visibleWhen
+                checkEnabled="false">
+             <with
+                   variable="selection">
+                <iterate
+                      ifEmpty="false"
+                      operator="and">
+                   <adapt
+                         type="org.eclipse.core.resources.IFile">
+                   </adapt>
+                </iterate>
+             </with>
+          </visibleWhen>
+       </menu>
+    </menuContribution>
+   	</extension> 
+   <extension point="org.eclipse.ui.commands">
+  <command
+        defaultHandler="com.github.bmaggi.ecore.yuml.ui.EcoreToYumlHandler"
+        id="ecore.yuml.command"
+        name="Ecore To Yuml">
+     <commandParameter
+           id="ecore.yuml.command.parameter.type"
+           name="jpeg"
+           optional="true">
+     </commandParameter>
+  </command>
+	</extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="com.github.bmaggi.ecore.yuml.ui.preferences.EYumlPreferencePage"
+            id="ecore.yuml.preferences.uniquepage"
+            name="Ecore To Yuml ">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.github.bmaggi.ecore.yuml.ui.preferences.EYumlPreferenceInitializer">
+      </initializer>
+   </extension>
+    
+</plugin>

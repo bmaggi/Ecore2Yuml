@@ -1,0 +1,14 @@
+target "Ecore 2 Yuml Oxygen" with source requirements
+
+location "http://download.eclipse.org/releases/oxygen/" eclipse-oxygen {
+ org.eclipse.draw2d.feature.group lazy
+ org.eclipse.emf.feature.group lazy
+ org.eclipse.equinox.executable.feature.group lazy
+ org.eclipse.equinox.p2.discovery.feature.feature.group lazy
+ org.eclipse.jdt.feature.group lazy
+ org.eclipse.pde.feature.group lazy
+ org.eclipse.platform.feature.group lazy
+ org.eclipse.rcp.feature.group lazy
+ org.eclipse.uml2.feature.group lazy
+}
+
