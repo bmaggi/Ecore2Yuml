@@ -3,7 +3,8 @@ sudo: false
 install: true
 
 addons:
-  sonarqube:
+  sonarcloud:
+    organization: "bmaggi-github"
     token:
       secure: "7b110dd962c8cd67d1dfeda36e879fbf9c6f680c"
 
