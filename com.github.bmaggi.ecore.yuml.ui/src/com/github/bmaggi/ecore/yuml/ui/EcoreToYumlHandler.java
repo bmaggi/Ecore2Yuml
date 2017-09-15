@@ -32,6 +32,8 @@ import org.eclipse.core.commands.ExecutionEvent;
 import org.eclipse.core.commands.ExecutionException;
 import org.eclipse.core.commands.IHandler;
 import org.eclipse.core.resources.IFile;
+import org.eclipse.core.resources.IResource;
+import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.Status;
 import org.eclipse.jface.viewers.ISelection;
@@ -65,6 +67,11 @@ public class EcoreToYumlHandler extends AbstractHandler implements IHandler {
 		String parameter = event.getParameter(ECORE_YUML_COMMAND_PARAMETER_TYPE);
 
 		printFile(YumlMeType.valueOf(parameter), selectedEcoreFile);
+		try {
+			selectedEcoreFile.getParent().refreshLocal(IResource.DEPTH_ONE, null);
+		} catch (CoreException e) {
+			Activator.log(e);
+		}
 		return Status.OK_STATUS;
 	}
 
