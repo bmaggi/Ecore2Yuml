@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.github.bmaggi.ecore.yuml.feature_0.1.0.jar" id="com.github.bmaggi.ecore.yuml.feature" version="0.1.0">
+   <feature url="features/com.github.bmaggi.ecore.yuml.feature_0.2.0.qualifier.jar" id="com.github.bmaggi.ecore.yuml.feature" version="0.2.0.qualifier">
       <category name="com.github.bmaggi.ecore.yuml.category"/>
    </feature>
    <feature url="features/com.github.bmaggi.ecore.yuml.feature.source_0.1.0.qualifier.jar" id="com.github.bmaggi.ecore.yuml.feature.source" version="0.1.0.qualifier">
