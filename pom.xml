@@ -270,7 +270,7 @@
 						<artifact>
 							<groupId>com.github.bmaggi.ecore.yuml</groupId>
 							<artifactId>com.github.bmaggi.ecore.yuml.targetplatform</artifactId>
-							<version>0.1.0-SNAPSHOT</version>
+							<version>0.2.0-SNAPSHOT</version>
 						</artifact>
 					</target>
 				</configuration>
