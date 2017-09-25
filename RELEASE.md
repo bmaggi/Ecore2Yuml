@@ -5,6 +5,7 @@
 ```
 mvn org.eclipse.tycho:tycho-versions-plugin:set-version -DnewVersion=X.Y.Z
 ```
+Manual modification for category.xml and target in main pom.xml
 1. Check & Create the update site
 ```
 mvn clean install
