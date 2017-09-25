@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: com.github.bmaggi.ecore.yuml.tests
-Bundle-Version: 0.2.0
+Bundle-Version: 0.3.0.qualifier
 Fragment-Host: com.github.bmaggi.ecore.yuml
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.junit
