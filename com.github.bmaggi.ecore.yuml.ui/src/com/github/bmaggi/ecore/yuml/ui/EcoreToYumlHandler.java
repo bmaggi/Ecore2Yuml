@@ -68,7 +68,10 @@ public class EcoreToYumlHandler extends AbstractHandler implements IHandler {
 
 		printFile(YumlMeType.valueOf(parameter), selectedEcoreFile);
 		try {
-			selectedEcoreFile.getParent().refreshLocal(IResource.DEPTH_ONE, null);
+			if (selectedEcoreFile != null) {
+				selectedEcoreFile.getParent().refreshLocal(IResource.DEPTH_ONE, null);
+			}
+			
 		} catch (CoreException e) {
 			Activator.log(e);
 		}
