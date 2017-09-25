@@ -13,22 +13,9 @@ Sonarqube:
 [![Technical debt ratio](https://sonarcloud.io/api/badges/measure?key=com.github.bmaggi.ecore.yuml:com.github.bmaggi.ecore.yuml.parent&metric=sqale_debt_ratio)](https://sonarcloud.io/dashboard/index/com.github.bmaggi.ecore.yuml.:com.github.bmaggi.ecore.yuml.parent)  
 
 
-##How to make a release
+##How to make a release see RELEASE.md
 
-Check that the target platform
 
-Check that you are using latest version
-mvn versions:display-plugin-updates
-
-Set the correct version (remove -SNAPSHOT)
-
-```
-mvn -Dtycho.mode=maven org.eclipse.tycho:tycho-versions-plugin:set-version -DnewVersion=*new-version*-SNAPSHOT
-```
-
-Copy the update site in ?
-
-Prepare the new version (add - SNAPSHOT)
 
 [Yuml]: https://yuml.me/
 [Ecore]: https://wiki.eclipse.org/Ecore
