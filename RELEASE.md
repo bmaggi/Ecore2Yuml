@@ -41,8 +41,5 @@ git push
 git push origin vX.Y.Z
 ```
 
-The version is available using this update site 
-https://bmaggi.github.io/Ecore2Yuml/vX.Y.Z/
-
-Test the update site 
-Update readme to point the latest version
+Check that the version is available using these update sites
+https://bmaggi.github.io/Ecore2Yuml/vX.Y.Z/ and https://bmaggi.github.io/Ecore2Yuml
