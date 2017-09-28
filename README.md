@@ -11,6 +11,9 @@ Prototype to provide an [Ecore] to [Yuml] transformation
 [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=com.github.bmaggi.ecore.yuml:com.github.bmaggi.ecore.yuml.parent)](https://sonarcloud.io/dashboard/index/com.github.bmaggi.ecore.yuml:com.github.bmaggi.ecore.yuml.parent)  
 [![Technical debt ratio](https://sonarcloud.io/api/badges/measure?key=com.github.bmaggi.ecore.yuml:com.github.bmaggi.ecore.yuml.parent&metric=sqale_debt_ratio)](https://sonarcloud.io/dashboard/index/com.github.bmaggi.ecore.yuml.:com.github.bmaggi.ecore.yuml.parent)  
 
+## Installation
+Use this eclipse update site [https://bmaggi.github.io/Ecore2Yuml/](https://bmaggi.github.io/Ecore2Yuml/)
+
 ## Process:
 * How to make a [Release]?
 
