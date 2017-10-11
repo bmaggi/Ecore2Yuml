@@ -11,6 +11,12 @@ addons:
 jdk:
   - oraclejdk8
 
+# GUI is required for eclipse testing
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sleep 3 # give xvfb some time to start
+
 script:
   # JaCoCo is used to have code coverage, the agent has to be activated
   - mvn clean install org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
