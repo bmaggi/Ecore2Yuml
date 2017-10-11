@@ -157,6 +157,9 @@
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-p2-repository-plugin</artifactId>
+				<configuration><!-- Tycho Bug #512182 Regression in 1.0.0 remove conf in 1.1.0  -->
+  					<createArtifactRepository>true</createArtifactRepository>
+ 				</configuration>
 			</plugin>
 			<plugin><!-- enable source bundle generation -->
 				<groupId>org.eclipse.tycho</groupId>
