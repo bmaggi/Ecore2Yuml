@@ -7,7 +7,7 @@
 		<artifactId>com.github.bmaggi.ecore.yuml.parent</artifactId>
 		<version>0.3.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>com.github.bmaggi.ecore.yuml.feature.repository</artifactId>
+	<artifactId>com.github.bmaggi.ecore.yuml.repository</artifactId>
 	<packaging>eclipse-repository</packaging>
 	<build>
 		<plugins>
