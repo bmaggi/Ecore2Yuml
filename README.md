@@ -10,7 +10,7 @@ You may find some usefull Yuml examples in [Yuml Cheatsheet]
 ## Status
 [![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://www.eclipse.org/legal/epl-v10.html)
 [![Build Status](https://travis-ci.org/bmaggi/Ecore2Yuml.svg?branch=master)](https://travis-ci.org/bmaggi/Ecore2Yuml)
-[![Technical debt ratio](https://sonarcloud.io/api/badges/measure?key=com.github.bmaggi.ecore.yuml:com.github.bmaggi.ecore.yuml.parent&metric=sqale_debt_ratio)](https://sonarcloud.io/dashboard/index/com.github.bmaggi.ecore.yuml.:com.github.bmaggi.ecore.yuml.parent)  
+[sonarcloud](https://sonarcloud.io/dashboard?id=com.github.bmaggi.ecore.yuml%3Acom.github.bmaggi.ecore.yuml.parent)  
 
 ## Installation
 Use this eclipse update site [https://bmaggi.github.io/Ecore2Yuml/](https://bmaggi.github.io/Ecore2Yuml/)
