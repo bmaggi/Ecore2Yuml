@@ -3,12 +3,12 @@ Prototype to provide an [Ecore] to [Yuml] transformation
 
 :warning: This is a prototype on how to use the Yuml service to generate an image for very simple Meta-Model
 
-:warning: transformations have an issue with big ecore model.
+:warning: transformations have an issue with big Ecore model.
 
-You may find some usefull Yuml examples in [Yuml Cheatsheet]
+You may find some useful Yuml examples in [Yuml Cheatsheet]
 
 ## Status
-[![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://www.eclipse.org/legal/epl-v10.html)
+[![License](https://img.shields.io/badge/license-EPL2-blue.svg)](https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html)
 [![Build Status](https://travis-ci.org/bmaggi/Ecore2Yuml.svg?branch=master)](https://travis-ci.org/bmaggi/Ecore2Yuml)
 [sonarcloud](https://sonarcloud.io/dashboard?id=com.github.bmaggi.ecore.yuml%3Acom.github.bmaggi.ecore.yuml.parent)  
 
