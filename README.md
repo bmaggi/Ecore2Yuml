@@ -3,7 +3,7 @@ Prototype to provide an [Ecore] to [Yuml] transformation
 
 :warning: This is a prototype on how to use the Yuml service to generate an image for very simple Meta-Model
 
-:warning: transformations have an issue with big Ecore model.
+:warning: The transformation has an issue with big Ecore model.
 
 You may find some useful Yuml examples in [Yuml Cheatsheet]
 
