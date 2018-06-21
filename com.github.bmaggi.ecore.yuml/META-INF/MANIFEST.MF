@@ -17,3 +17,4 @@ Export-Package: com.github.bmaggi.ecore.yuml,
 Bundle-Activator: com.github.bmaggi.ecore.yuml.Activator
 Bundle-ActivationPolicy: lazy
 Bundle-Vendor: %Bundle-Vendor
+Automatic-Module-Name: com.github.bmaggi.ecore.yuml

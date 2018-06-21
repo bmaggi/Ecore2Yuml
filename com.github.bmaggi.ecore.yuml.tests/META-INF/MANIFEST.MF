@@ -7,3 +7,4 @@ Fragment-Host: com.github.bmaggi.ecore.yuml
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.junit
 Bundle-Vendor: %Bundle-Vendor
+Automatic-Module-Name: com.github.bmaggi.ecore.yuml.tests

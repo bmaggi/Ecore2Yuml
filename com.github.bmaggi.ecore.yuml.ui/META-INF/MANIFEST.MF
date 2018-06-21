@@ -20,3 +20,4 @@ Import-Package: com.github.bmaggi.ecore.yuml,
  com.github.bmaggi.ecore.yuml.util,
  com.github.bmaggi.ecore.yuml.yuml
 Bundle-Vendor: %Bundle-Vendor
+Automatic-Module-Name: com.github.bmaggi.ecore.yuml.ui
